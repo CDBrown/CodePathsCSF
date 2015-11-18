@@ -3,7 +3,7 @@ function clicked() {
     var passid = "123456";
 
     if (id.value == passid) {
-        window.alert("you are about to view Nancy's profile");
+        window.open('patient_index.html');
 
     }
     else {
