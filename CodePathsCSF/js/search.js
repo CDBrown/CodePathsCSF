@@ -1,4 +1,4 @@
-﻿function clicked() {
+function clicked() {
     var id = document.getElementById('patient-id');
     var passid = "123456";
 

@@ -20,19 +20,7 @@
     </style>
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
-<script>
-$(document).ready(function(e){
-function validate(){
-var username = document.getElementById("login-username").value;
-var password = document.getElementById("login-password").value;
-if ( username == "provimd7" && password == "56789"){
-alert ("Login successfully");
-window.location = "searchpatient.html"; // Redirecting to other page.
-return false;
-  }
- }
-}
-</script>
+    
 </head>
 <body>
     <div class="container">    
@@ -75,7 +63,7 @@ return false;
                                     <!-- Button -->
 
                                     <div class="col-sm-12 controls">
-                                      <a id="btn-login" href="#" class="btn btn-success" onClick="clicked()">Login  </a>
+                                      <a id="btn-login" href="searchpatient.html" class="btn btn-success" onClick="clicked()">Login  </a>
                                   
 
                                     </div>

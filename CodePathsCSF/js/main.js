@@ -3,8 +3,8 @@ function clicked() {
 	var user=document.getElementById('login-username');
 	var pass = document.getElementById('login-password');
 	
-	var coruser ="test";
-	var corpass="123";
+	var coruser ="provimd7";
+	var corpass="56789";
 	
 	if (user.value==coruser){
 		
