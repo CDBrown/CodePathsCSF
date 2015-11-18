@@ -16,7 +16,7 @@ namespace CodePathsCSF
         protected void Page_Load(object sender, EventArgs e)
         {
             string connectionString = ConfigurationManager.ConnectionStrings["SQLAzureConnection"].ConnectionString;
-            string queryString = "SELECT * FROM dbo.member;";
+            string queryString = "SELECT * FROM dbo.patient;";
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 SqlCommand command = new SqlCommand(queryString, connection);

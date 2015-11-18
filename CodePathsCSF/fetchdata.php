@@ -1,9 +1,9 @@
 <?php
 $ 
-$sqlconn=mysqli_connect('localhost','root','', 'db_gereltuya')or die(mysql_error());
+$sqlconn=mysqli_connect('localhost','root','', 'CodePaths')or die(mysql_error());
 
 
-$dataquery=mysqli_query($sqlconn"select * from table_test");
+$dataquery=mysqli_query($sqlconn"select * from table_test);
 
 $arr= array();
 
